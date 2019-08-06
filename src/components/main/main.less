@@ -1,0 +1,389 @@
+.main{
+  font-size: 14px;
+  color: #646464;
+  .logo-con{
+    height: 64px;
+    padding: 10px;
+    img{
+      height: 44px;
+      width: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .header-con{
+    background: #fff;
+    padding: 0 20px;
+    width: 100%;
+  }
+  .main-layout-con{
+    height: 100%;
+    overflow: hidden;
+  }
+  .main-content-con{
+    height: ~"calc(100% - 60px)";
+    overflow: hidden;
+  }
+  .tag-nav-wrapper{
+    padding: 0;
+    height:40px;
+    background:#F0F0F0;
+  }
+  .content-wrapper{
+    padding: 18px;
+    height: ~"calc(100% - 80px)";
+    overflow: auto;
+  }
+  .left-sider{
+    .ivu-layout-sider-children{
+      overflow-y: scroll;
+      margin-right: -18px;
+    }
+  }
+  .ivu-card{
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+  }
+  .ivu-card-body{
+    padding: 20px;
+  }
+  .zk-table{
+    font-size: 14px;
+    color: #646464;
+  }
+  .ivu-table{
+    color: #646464;
+    font-size: 14px;
+  }
+  .ivu-select{
+    font-size: 14px;
+    color: #646464;
+    .ivu-select-item{
+      font-size: 14px !important;
+      color: #646464;
+    }
+  }
+  .ivu-card-head p, .ivu-card-head-inner{
+    font-size: 14px;
+    color: #646464;
+  }
+  .ivu-input-large{
+    height: 38px;
+  }
+  .ivu-tree ul{
+    font-size: 14px;
+    color: #646464;
+  }
+}
+.ivu-menu-item > i{
+  margin-right: 12px !important;
+}
+.ivu-menu-submenu > .ivu-menu > .ivu-menu-item > i {
+  margin-right: 8px !important;
+}
+.collased-menu-dropdown{
+  width: 100%;
+  margin: 0;
+  line-height: normal;
+  padding: 7px 0 6px 16px;
+  clear: both;
+  font-size: 12px !important;
+  white-space: nowrap;
+  list-style: none;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  &:hover{
+    background: rgba(100, 100, 100, 0.1);
+  }
+  & * {
+    color: #646464;
+  }
+  .ivu-menu-item > i{
+    margin-right: 12px !important;
+  }
+  .ivu-menu-submenu > .ivu-menu > .ivu-menu-item > i {
+    margin-right: 8px !important;
+  }
+}
+
+.ivu-select-dropdown.ivu-dropdown-transfer{
+  max-height: 400px;
+}
+
+.themeA{
+  .ivu-layout-sider{
+    background: #ffffff;
+  }
+  .left-sider{
+    float: left\9;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    .sideMenuLogo{
+      max-width: 260px;
+      height: 62px;
+      position: fixed;
+      z-index: 1000;
+    }
+    .ivu-menu{
+      font-size: 14px;
+      color: #646464;
+      line-height: 24px;
+      .ivu-menu-submenu-title{
+        &:hover{
+          color: #079FFF;
+          background: #CDECFF !important;
+        }
+      }
+      .ivu-icon{
+        line-height: 20px;
+      }
+      .ivu-menu-item{
+        &:hover{
+          color: #079FFF;
+          background: #CDECFF !important;
+        }
+      }
+      .ivu-menu-submenu{
+        .ivu-menu-item{
+          background: #f1f1f1;
+          &:hover{
+            color: #079FFF;
+            background: #CDECFF !important;
+          }
+        }
+      }
+    }
+    .ivu-menu-light.ivu-menu-vertical{
+      .ivu-menu-item-active{
+        &:not(.ivu-menu-submenu){
+          color: #079FFF;
+          background: #CDECFF;
+          &:after{
+            background: transparent;
+          }
+        }
+      }
+    }
+    .side-menu-wrapper{
+      .menu-collapsed{
+        padding-top: 62px;
+      }
+    }
+  }
+  .ivu-layout-header{
+    height: 62px;
+    line-height: 62px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    overflow: hidden\9;
+  }
+  .header-bar{
+    .custom-content-con{
+      line-height: 62px;
+      padding-right: 0;
+    }
+  }
+  .main-content-con{
+    .ivu-layout{
+      background: #f4f4f4;
+    }
+  }
+  .tag-nav-wrapper{
+    height: 44px;
+    background: #f4f4f4;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+  }
+  .content-wrapper{
+    padding: 24px;
+  }
+  .ivu-btn-large{
+    border-radius: 8px;
+  }
+  .ivu-btn-primary{
+    background-color: #079fff;
+    border-color: #079fff;
+    &:hover{
+      background-color: #058ee4;
+      border-color: #058ee4;
+    }
+  }
+  .ivu-btn-error{
+    background-color: #ff6b4e;
+    border-color: #ff6b4e;
+    &:hover{
+      background-color: #f05c3f;
+      border-color: #f05c3f;
+    }
+  }
+  .zk-table__body-wrapper{
+    overflow: inherit;
+    overflow-x: scroll
+  }
+  .newCard{
+    .ivu-card-head{
+      border: none;
+      p{
+        font-size: 16px;
+        height: 20px;
+        padding-left: 1em;
+        line-height: 20px;
+        color: #079FFF;
+        border-left: 6px solid #079FFF;
+      }
+    }
+  }
+}
+.filterCard.ivu-card{
+  margin-bottom: 22px;
+  border-left: 6px solid #079fff !important;
+  &:hover{
+    border-left: 6px solid #079fff !important;
+  }
+  .ivu-form-item{
+    margin-bottom: 0;
+  }
+  .ivu-form{
+    .ivu-form-item-label{
+      font-size: 14px;
+      padding: 13px 12px 13px 0;
+    }
+    .ivu-form-item-content{
+      line-height: 40px;
+      font-size: 14px;
+    }
+    .ivu-input-wrapper-large{
+      height: 40px;
+      line-height: 40px;
+      input{
+        border-radius: 8px;
+      }
+    }
+    .ivu-select{
+      font-size: 14px;
+    }
+    .ivu-select-large.ivu-select-single{
+      height: 40px;
+      line-height: 40px;
+      .ivu-select-selection{
+        height: 40px;
+        line-height: 40px;
+        border-radius: 8px;
+        .ivu-select-placeholder{
+          height: 40px;
+          line-height: 40px;
+        }
+        .ivu-select-selected-value{
+          height: 40px;
+          line-height: 40px;
+        }
+      }
+    }
+    .ivu-btn-large{
+      height: 40px;
+    }
+  }
+}
+.ivu-select-dropdown{
+  min-width: 100px\9 !important;
+  max-height: 270px\9 !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  border-radius: 8px !important;
+  .ivu-dropdown-menu{
+    .ivu-dropdown-item{
+      font-size: 14px !important;
+      &:hover{
+        background: #CDECFF;
+      }
+    }
+  }
+}
+.ivu-tag{
+  .ivu-tag-text{
+    color: #646464;
+  }
+}
+.ivu-btn.ivu-btn-text{
+  color: #646464;
+}
+.ivu-btn.ivu-btn-default{
+  color: #646464;
+}
+.ivu-form{
+  .ivu-form-item{
+    .ivu-form-item-label{
+      font-size: 14px;
+      color: #646464;
+    }
+    .ivu-input{
+      font-size: 14px;
+      color: #646464;
+    }
+  }
+}
+.ivu-modal{
+  font-size: 14px;
+  color: #646464;
+}
+.ivu-modal-confirm-head{
+  &-icon-confirm{
+    color: #ff6b4e !important;
+  }
+}
+.ivu-modal-confirm-head-title{
+  color: #646464 !important;
+}
+.ivu-modal-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .ivu-modal{
+    top: 0;
+    top: 50%\9;
+    -ms-transform: translateY(-50%);
+  }
+}
+.ivu-notice{
+  width: 230px !important;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .ivu-select-dropdown{
+    width: auto !important;
+  }
+  .ivu-modal-wrap{
+    overflow: hidden !important;
+    .ivu-modal{
+      top: 0;
+      right: 35%;
+      transform: none;
+    }
+  }
+}
+.ivu-layout-has-sider.ivu-layout > .ivu-layout, .ivu-layout-has-sider.ivu-layout > .ivu-layout-content{
+  overflow: hidden\9;
+  height: 100%\9;
+}
+.ieSelect{
+  width: 100%;
+  height: 38px;
+  font-size: 14px;
+  line-height: 38px;
+  color: #646464;
+  padding: 0 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #dcdee2;
+  background: transparent;
+}
+select::-ms-expand { display: none; }
+.triangle{
+  width: 20px;
+  height: 36px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  pointer-events:none;
+  display:inline-block;
+}

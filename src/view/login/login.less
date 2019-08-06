@@ -1,0 +1,78 @@
+.login{
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/login-bg.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  &-con{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 600px;
+    &-from{
+      background-image: url('../../assets/images/login-con.png') ;
+      background-size: 100% 100%;
+      margin-top: 30px;
+      height: 420px;
+      position: relative;
+      .login-from{
+        position: absolute;
+        top: 65px;
+        right: 50px;
+        width: 40%;
+        .ivu-card{
+          box-shadow: none;
+        }
+        &-header{
+          font-size: 16px;
+          font-weight: 300;
+          text-align: center;
+          padding: 30px 0;
+        }
+        .form-con{
+          padding: 10px 0 0;
+          .ivu-form-item{
+            margin-bottom: 30px;
+          }
+        }
+
+        span{
+          display: inline-block;
+          //width: 50%;
+          text-align: center;
+        }
+
+        .login-tit{
+          margin: -20px auto 36px;
+          span{
+            font-size: 24px;
+            cursor: pointer;
+            color: #079FFF;
+          }
+        }
+      }
+
+    };
+    &-title{
+      color: #fff;
+      text-align: center;
+      font-size: 38px;
+      height: 60px;
+      font-weight: bolder;
+      letter-spacing: 5px;
+      span{
+        display: block;
+        background-image: url('../../assets/images/login-logo.png') ;
+        background-repeat:no-repeat;
+        height: 44px;
+        line-height: 44px;
+        text-align: right;
+        width: 550px;
+        margin: 10px auto;
+      }
+    }
+  }
+}

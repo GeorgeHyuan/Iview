@@ -1,0 +1,65 @@
+.user{
+  &-avatar-dropdown{
+    cursor: pointer;
+    display: inline-block;
+    // height: 64px;
+    vertical-align: middle;
+    // line-height: 64px;
+    .ivu-badge-dot{
+      top: 16px;
+    }
+    .themeAUl{
+      min-width: 350px;
+      list-style: none;
+      li{
+        display: inline-block;
+        float: left;
+        p{
+          border: none;
+          border-right: 1px solid #646464;
+          border-radius: 0;
+          padding: 0 16px;
+          outline: none;
+          height: 26px;
+          margin: 20px 0;
+          span{
+            height: 26px;
+            display: inline-block;
+            line-height: 26px;
+            float: left;
+            margin-left: 5px;
+            .ivu-avatar{
+              float: left;
+              width: 26px;
+              height: 26px;
+            }
+            .ivu-badge{
+              float: left;
+            }
+            .iconfont{
+              float: left;
+              margin-right: 8px;
+            }
+            .buttonWord{
+              font-size: 14px;
+              line-height: 24px;
+              display: inline-block;
+              max-width: 94px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+            .ivu-badge-count{
+              top: -8px;
+              right: 6px;
+            }
+          }
+        }
+      }
+      .ivu-dropdown-item{
+        display: block;
+        float: inherit;
+        font-size: 14px !important;
+      }
+    }
+  }
+}

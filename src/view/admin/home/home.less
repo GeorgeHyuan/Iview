@@ -1,0 +1,106 @@
+.ServerMessageBody{
+  width: 160px;
+  @media (width: 1440px) {
+    width: 127px;
+  }
+  @media (width: 1400px) {
+    width: 127px;
+  }
+  margin: 0 auto;
+  .ServerMessageLabel{
+    color: #B4B4B4;
+  }
+  .ServerMessageText{
+    text-indent: 2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    @media (width: 1440px) {
+      text-indent: 0;
+    }
+    @media (width: 1400px) {
+      text-indent: 0;
+    }
+    line-height: 40px;
+  }
+}
+.ServerDiskMessage{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  .ivu-chart-circle{
+    left: 50%;
+    margin-left: -69px;
+  }
+  &-text{
+    width: 140px;
+    margin: -6px auto 0;
+    p{
+      line-height: 25px;
+    }
+  }
+}
+.memoryInfo{
+  margin: 12px auto;
+  .progress{
+    float: left;
+    height: 22px;
+    background: #079FFF;
+    margin: 6px 0;
+    padding-right: 55px;
+  }
+  .progressText{
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    color: #079FFF;
+    margin: 6px 0 6px 10px;
+  }
+  .ivu-progress-outer{
+    width: ~"calc(75% + 55px)";
+    .ivu-progress-inner{
+      border-radius: 0;
+      .ivu-progress-bg{
+        border-radius: 0;
+      }
+      .ivu-progress-success-bg{
+        border-radius: 0;
+      }
+    }
+  }
+  .ivu-progress-text{
+    color: #079FFF;
+  }
+}
+.modelUsageInformation{
+  padding-left: 20px;
+  margin: 10px auto;
+  .modelUsageIcon{
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -125px;
+    top: 5px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 24px;
+  }
+  .modelUsageProgress{
+    float: left;
+    height: 22px;
+    margin: 6px 0;
+    padding-right: 55px;
+  }
+  .modelUsageProgressText{
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin: 6px 0 6px 10px;
+  }
+}
+.chart-pie{
+
+}

@@ -1,0 +1,31 @@
+<!--
+  性能监控页面
+  Created by xby on 2019/07/16
+-->
+
+<template>
+  <Card class="PerformanceMonitor">
+    <iframe :src="iframeHref" frameborder="0" scrolling="auto" :style="iframeStyle"></iframe>
+  </Card>
+</template>
+
+<script>
+export default {
+  name: 'admin-performance-monitor',
+  data () {
+    return {
+      iframeHref: null,
+      iframeStyle: {
+        width: '100%',
+        height: (document.documentElement.clientHeight - 62 - 42 - 48 - 40) + 'px'
+      }
+    };
+  },
+  methods: {
+    //
+  },
+  mounted () {
+    this.$data.iframeHref = this.$route.meta.pageHref;
+  }
+};
+</script>

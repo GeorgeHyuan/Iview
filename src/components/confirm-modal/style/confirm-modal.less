@@ -1,0 +1,61 @@
+.ConfirmModal{
+  .ivu-modal-header{
+    padding: 30px 30px 4px;
+    border-bottom: none;
+    height: 112px;
+    .ConfirmModal-title{
+      &-icon{
+        height: 36px;
+        line-height: 36px;
+      }
+      &-word{
+        height: 25px;
+        line-height: 25px;
+        font-size: 25px;
+        font-weight: inherit;
+      }
+    }
+  }
+  .ivu-modal-close{
+    right: -42px;
+    top: -10px;
+    .ivu-icon-ios-close{
+      font-size: 42px;
+      color: #fff;
+      top: 0;
+      &:hover{
+        color: #fff;
+      }
+    }
+  }
+  .ivu-modal-body{
+    .ConfirmModal-content{
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+  .ivu-modal-footer{
+    border: none;
+    padding: 16px 18px 30px;
+    .setModal-footer{
+      text-align: center;
+      .ivu-btn{
+        margin: 0 15px;
+        font-size: 14px;
+        border-radius: 8px;
+      }
+      .ivu-btn-primary {
+        background-color: #079fff;
+        border-color: #079fff;
+      }
+    }
+  }
+}
+.vertical-center-modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .ivu-modal{
+    top: 0;
+  }
+}
